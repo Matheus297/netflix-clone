@@ -1,0 +1,37 @@
+
+
+.container {
+    margin-bottom: 30px;
+    
+}
+
+.container h2 {
+    margin: 0px 0px 0px 30px;
+    color: #fff;
+}
+
+.movie-row {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.movie-item {
+    display: inline-block;
+    width: 150px;
+}
+
+.movie-list {
+    width: 99999px;
+}
+
+.movie-item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all 0.2s;
+
+}
+
+.movie-item img:hover {
+    cursor: pointer;
+    transform: scale(1);
+}
